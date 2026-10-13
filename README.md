@@ -24,26 +24,29 @@ The idea of creating a Rock Paper Scissors game in Python came to me after watch
 
 ### 2. Tic-Tac-Toe
 
-A two-player Tic-Tac-Toe game built using Python and Tkinter.
+A two-player Tic-Tac-Toe game built using Python and Tkinter. I was inspired by a YouTube tutorial and added a restart feature to make it easier to play multiple rounds.
 
 **Features**
 - Interactive 3×3 game board
-- Two-player gameplay
+- Two-player gameplay using X and O
 - Checks for winning combinations
-- Highlights winning buttons
+- Highlights the winning combination in green
 - Displays a message when a player wins
+- Restart button to clear the board and start a new game
 
 **What I learned**
 - Creating graphical user interfaces with Tkinter
 - Working with buttons and user interactions
 - Using lists to represent winning combinations
 - Organizing game logic into functions
+- Managing game states using variables
+- Resetting buttons and game variables when restarting
 
-This project was inspired by a YouTube tutorial. It helped me explore graphical user interfaces, button interactions, and the logic required to detect winning combinations.
+This project helped me explore graphical user interfaces, button interactions, and the logic required to detect winning combinations. Adding the restart feature also gave me practice resetting the game board and returning the game to its initial state.
 
 ### 3. Snake Game 🐍
 
-A Snake game built using Python and Tkinter, based on a YouTube tutorial. I followed the tutorial to understand the game's implementation and added a restart feature that allows the player to start a new game after a game over.
+A Snake game built using Python and Tkinter, based on a YouTube tutorial. I followed the tutorial to understand the game's implementation and added a restart feature that allows the player to play again after a game over.
 
 **Features**
 - Grid-based game board
@@ -67,7 +70,7 @@ This project helped me understand how different Python concepts work together to
 
 - **Python 3** — game logic and program flow
 - **Random module** — generating computer choices in Rock Paper Scissors
-- **Tkinter** — creating graphical interfaces for Tic-Tac-Toe and Snake
+- **Tkinter** — graphical interfaces for Tic-Tac-Toe and Snake
 - **Tkinter Canvas** — drawing the snake, food, and other game elements
 
 ## 🚀 How to Run
