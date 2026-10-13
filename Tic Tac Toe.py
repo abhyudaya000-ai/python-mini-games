@@ -42,4 +42,18 @@ winner = False
 label = tk.Label(root, text=f"Player {current_player}'s turn", font=("normal", 16))
 label.grid(row=3, column=0, columnspan=3)
 
+
+def restart_game():
+    global current_player, winner
+    for button in buttons:
+        button.config(text="", bg="SystemButtonFace")
+        current_player = "X"
+        winner = False
+        label.config(text=f"Player {current_player}'s turn")
+
+
+label.grid(row=3, column=0, columnspan=3)
+restart_button = tk.Button(root, text="Restart Game", font=("normal", 14), command=restart_game)
+restart_button.grid(row=4, column=0, columnspan=3, pady=10)
+
 root.mainloop()
